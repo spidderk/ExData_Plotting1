@@ -1,3 +1,35 @@
+## Solution
+(See the original problem description below, starting with the Introduction section.)
+
+### Source
+For my solution, I have chosen to depart slightly from the instructions. I have
+created a separate R file to read in and tidy up the data, since this code would otherwise
+need to be repeated in the four individual solutions. I feel this is more maintainable.
+Therefore, there are a total of 5 source files, as follows:
+
+readtidydata.R
+plot1.R
+plot2.R
+plot3.R
+plot4.R
+
+The readtidydata.R file is sourced at the beginning of each of the plotn.R files. Each
+solution will still run independent of the others, and generate the appropriate plot, as
+per the original instructions.
+
+### Required Packages
+The solution makes use of the dplr and lubridate packages. The source assumes these are
+already installed, although a comment near the top of the readtidydata.R explains how to
+install if required.
+
+### Input
+The input data (see Introduction below) is downloaded and unzipped in the ./data directory,
+which is created if necessary.
+
+### Output
+The output png files are placed in the ./output directory, which is created if necessary.
+
+
 ## Introduction
 
 This assignment uses data from
